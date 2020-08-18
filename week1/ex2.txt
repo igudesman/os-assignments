@@ -1,0 +1,1000 @@
+ 1040  ls
+ 1041  nano Dockerfile.sonar 
+ 1042  docker build -f Dockerfile.sonar .
+ 1043  ls
+ 1044  cd unittests/
+ 1045  ls
+ 1046  rm subtraction.py 
+ 1047  ls
+ 1048  cd ..
+ 1049  docker build -f Dockerfile.sonar .
+ 1050  docker ps -a
+ 1051  docker images
+ 1052  docker run -it 11ad5b65f3ad 
+ 1053  ls
+ 1054  docker ps -a
+ 1055  ls
+ 1056  docker iamges
+ 1057  docker images
+ 1058  cd ..
+ 1059  ls
+ 1060  cd KSDM/
+ 1061  ls
+ 1062  cd uploadservice/
+ 1063  ls
+ 1064  docker-compose up -d
+ 1065  docker ps -a
+ 1066  docker-compose down
+ 1067  cd ..
+ 1068  cd KVAS
+ 1069  nano Dockerfile.sonar 
+ 1070  cd ..
+ 1071  ls KSDM
+ 1072  ls
+ 1073  cd KSDM
+ 1074  cd uploadservice/
+ 1075  ls
+ 1076  nano ksdm-uploadservice-deploy.yml 
+ 1077  ls
+ 1078  docker build -t test .
+ 1079  docker ps -a
+ 1080  docker run -it test
+ 1081  ls
+ 1082  nano README.rst 
+ 1083  pip3 install -r requirements.txt 
+ 1084  docker run --rm -it -p 5432:5432 postgres:10
+ 1085  docker-compose up -d
+ 1086  pytest unittests/
+ 1087  docker-compose down
+ 1088  cd ..
+ 1089  ls
+ 1090  cd ..
+ 1091  nano Dockerfile
+ 1092  ls
+ 1093  docker build --target artifact --output type=local,dest=. .
+ 1094  ls
+ 1095  docker --version
+ 1096  ls
+ 1097  docker images
+ 1098  docker run -it 072ac54b9df1
+ 1099  nano Dockerfile 
+ 1100  docker ps -a
+ 1101  ls
+ 1102  rm Dockerfile 
+ 1103  ls
+ 1104  cat .docker/
+ 1105  cd ..
+ 1106  ls
+ 1107  cd ..
+ 1108  ls
+ 1109  .docker
+ 1110  cd home/
+ 1111  ls
+ 1112  cd daniel/
+ 1113  ls
+ 1114  cd ..
+ 1115  св юю
+ 1116  cd ..
+ 1117  ls
+ 1118  cd ..
+ 1119  ls
+ 1120  whereis .docker
+ 1121  ls
+ 1122  cd ..
+ 1123  ls
+ 1124  cd ..
+ 1125  ls
+ 1126  10.70.40.65
+ 1127  ssh 10.70.40.65
+ 1128  USER root
+ 1129  sudo ssh 10.70.40.65
+ 1130  cd .docker
+ 1131  ls
+ 1132  cd ..
+ 1133  cd home/
+ 1134  ls
+ 1135  cd daniel/
+ 1136  cd .docker
+ 1137  ls
+ 1138  cd ..
+ 1139  ls
+ 1140  ls
+ 1141  find / -name ".docker"
+ 1142  sudo find / -name ".docker"
+ 1143  cd ..
+ 1144  cd .docker
+ 1145  ls
+ 1146  cd .docker
+ 1147  ls
+ 1148  cd home/
+ 1149  ls
+ 1150  cd da
+ 1151  cd daniel/
+ 1152  cd .docker
+ 1153  ls
+ 1154  nano config.json 
+ 1155  wget https://github.com/docker/buildx/releases/download/v0.4.1/buildx-v0.4.1.linux-amd64
+ 1156  cd .docker/
+ 1157  ls
+ 1158  nano config.json 
+ 1159  cd ..
+ 1160  chmod a+x ~/.docker/cli-plugins/docker-buildx
+ 1161  ls
+ 1162  cd internship/
+ 1163  cd KVAS/
+ 1164  nano Dockerfile.sonar 
+ 1165  docker buildx build --target testresults -f Dockerfile.sonar --output type=local,dest=. .
+ 1166  ды
+ 1167  ls
+ 1168  nano Dockerfile.sonar 
+ 1169  docker buildx build --target testresults -f Dockerfile.sonar --output type=local,dest=. .
+ 1170  nano Dockerfile.sonar 
+ 1171  docker buildx build --target testresults -f Dockerfile.sonar --output type=local,dest=. .
+ 1172  docker buildx build --target testresults -f Dockerfile.sonar --output type=local,dest=./ .
+ 1173  docker buildx build --target testresults -f Dockerfile.sonar --output type=local,dest=. .
+ 1174  ls
+ 1175  cd .docker
+ 1176  mkdir cli-plugins
+ 1177  ls
+ 1178  cd cli-plugins/
+ 1179  ls
+ 1180  cd ..
+ 1181  ls
+ 1182  mv buildx-v0.4.1.linux-amd64 ./cli-plugins/docker-buildx
+ 1183  ls
+ 1184  cd cli-plugins/
+ 1185  ls
+ 1186  cd ..
+ 1187  ls
+ 1188  cd internship/
+ 1189  mkdir test
+ 1190  ls
+ 1191  cd test/
+ 1192  nano Dockerfile
+ 1193  docker build --target artifact --output type=local,dest=. .
+ 1194  ls
+ 1195  nano Dockerfile 
+ 1196  docker build --target artifact --output type=local,dest=. .
+ 1197  docker buildx build --target artifact --output type=local,dest=. .
+ 1198  ls
+ 1199  nano hello.tx 
+ 1200  ls
+ 1201  cd ..
+ 1202  ls
+ 1203  cd KVAS
+ 1204  git pull
+ 1205  ls
+ 1206  git stash
+ 1207  git pull
+ 1208  ls
+ 1209  nano Dockerfile.sonar 
+ 1210  docker buildx build --target testresults --output type=local,dest=. .
+ 1211  docker buildx build --target testresults -f Dockerfile.sonar --output type=local,dest=. .
+ 1212  docker images
+ 1213  docker rmi 072ac54b9df1
+ 1214  docker images rmi 072ac54b9df1
+ 1215  ды
+ 1216  ls
+ 1217  docker buildx build --target testresults -f Dockerfile.sonar --output type=local,dest=. .
+ 1218  cd .
+ 1219  cd ..
+ 1220  ls
+ 1221  cd test/
+ 1222  ls
+ 1223  nano Dockerfile 
+ 1224  cd ..
+ 1225  ls
+ 1226  cd KVAS/
+ 1227  nano Dockerfile.sonar 
+ 1228  docker buildx build --target testresults -f Dockerfile.sonar --output type=local,dest=. .
+ 1229  nano Dockerfile.sonar 
+ 1230  docker buildx build --target testresults -f Dockerfile.sonar --output type=local,dest=. .
+ 1231  ls
+ 1232  nano Dockerfile.sonar 
+ 1233  docker buildx build --target testresults -f Dockerfile.sonar --output type=local,dest=. .
+ 1234  nano Dockerfile.sonar 
+ 1235  docker buildx build --target testresults -f Dockerfile.sonar --output type=local,dest=. .
+ 1236  nano Dockerfile.sonar 
+ 1237  docker buildx build --target testresults -f Dockerfile.sonar --output type=local,dest=. .
+ 1238  ды
+ 1239  ls
+ 1240  св юю
+ 1241  cd ..
+ 1242  ls
+ 1243  cd test/
+ 1244  nano Dockerfile 
+ 1245  cd ..
+ 1246  ls
+ 1247  cd KVAS
+ 1248  ls
+ 1249  nano Dockerfile.sonar 
+ 1250  docker buildx build --target testresults -f Dockerfile.sonar --output type=local,dest=. .
+ 1251  nano Dockerfile.sonar 
+ 1252  docker buildx build --target testresults -f Dockerfile.sonar --output type=local,dest=. .
+ 1253  nano Dockerfile.sonar 
+ 1254  docker buildx build --target testresults -f Dockerfile.sonar --output type=local,dest=. .
+ 1255  nano Dockerfile.sonar 
+ 1256  docker buildx build --target testresults -f Dockerfile.sonar --output type=local,dest=. .
+ 1257  ls
+ 1258  cd testing/
+ 1259  ls
+ 1260  nano Dockerfile.sonar 
+ 1261  cd ..
+ 1262  nano Dockerfile.sonar 
+ 1263  docker buildx build --target testresults -f Dockerfile.sonar --output type=local,dest=. .
+ 1264  ls
+ 1265  nano Dockerfile.sonar 
+ 1266  ls
+ 1267  docker buildx build --target testresults -f Dockerfile.sonar --output type=local,dest=. .
+ 1268  ls
+ 1269  cd auu/
+ 1270  ;s
+ 1271  ls
+ 1272  cd ..
+ 1273  nano Dockerfile.sonar 
+ 1274  cd ..
+ 1275  rm -rf KVAS/
+ 1276  rm -rf test/
+ 1277  git clone https://tfs.university.innopolis.ru/tfs/DefaultCollection/KSDM/_git/KVAS
+ 1278  ls
+ 1279  cd KVAS
+ 1280  ls
+ 1281  docker buildx build --target testresults -f Dockerfile.sonar --output type=local,dest=. .
+ 1282  ls
+ 1283  nano Dockerfile.sonar 
+ 1284  docker buildx build --target testresults -f Dockerfile.sonar --output type=local,dest=. .
+ 1285  ls
+ 1286  export DOCKER_CLI_EXPERIMENTAL=enabled
+ 1287  ls
+ 1288  cd internship/
+ 1289  ls
+ 1290  cd KVAS
+ 1291  ls
+ 1292  cd ..
+ 1293  rm -rf KVAS/
+ 1294  git clone https://tfs.university.innopolis.ru/tfs/DefaultCollection/KSDM/_git/KVAS
+ 1295  cd KVAS/
+ 1296  ls
+ 1297  nano Dockerfile.sonar 
+ 1298  sudo docker buildx build --target testresults -f Dockerfile.sonar --output type=local,dest=. .
+ 1299  sudo docker build buildx --target testresults -f Dockerfile.sonar --output type=local,dest=. .
+ 1300  docker buildx build --target testresults -f Dockerfile.sonar --output type=local,dest=. .
+ 1301  ls
+ 1302  cd code-analysis/
+ 1303  ls
+ 1304  cd ..
+ 1305  ls
+ 1306  cd ..
+ 1307  ssh 10.70.40.65
+ 1308  sudo ssh 10.70.40.65
+ 1309  ls
+ 1310  cd internship/
+ 1311  ls
+ 1312  cd K
+ 1313  cd KVAS/
+ 1314  ls
+ 1315  cd ..
+ 1316  rm -rf KVAS
+ 1317  ls
+ 1318  git clone https://tfs.university.innopolis.ru/tfs/DefaultCollection/KSDM/_git/KVAS
+ 1319  nano Dockerfile
+ 1320  docker buildx build --target artifact --output type=local,dest=. .
+ 1321  ls
+ 1322  cd internship/
+ 1323  l
+ 1324  ks
+ 1325  ls
+ 1326  rm Dockerfile 
+ 1327  rm -rf KVAS
+ 1328  rm -rf KSDM
+ 1329  git clone https://tfs.university.innopolis.ru/tfs/DefaultCollection/KSDM/_git/KSDM
+ 1330  cd KSDM
+ 1331  ls
+ 1332  cd uploadservice/
+ 1333  ls
+ 1334  git status
+ 1335  git checkout 31355-SonarQube
+ 1336  git status
+ 1337  ls
+ 1338  nano Dockerfile
+ 1339  docker build -t service .
+ 1340  ls
+ 1341  pip install -r requirements.txt 
+ 1342  nano Dockerfile
+ 1343  docker buildx build --target testresults --output type=local,dest=. .
+ 1344  ls
+ 1345  docker buildx build --target testresults --output type=local,dest=. .
+ 1346  nano Dockerfile
+ 1347  docker buildx build --target testresults --output type=local,dest=. .
+ 1348  docker login
+ 1349  docker buildx build --target testresults --output type=local,dest=. .
+ 1350  docker buildx create --name nubuilder
+ 1351  docker buildx use nubuilder
+ 1352  docker buildx inspect --bootstrap
+ 1353  docker buildx build --target testresults --output type=local,dest=. .
+ 1354  docker run --rm --privileged docker/binfmt:66f9012c56a8316f9244ffd7622d7c21c1f6f28d
+ 1355  docker buildx build --target testresults --output type=local,dest=. .
+ 1356  docker run --rm --privileged multiarch/qemu-user-static:register --reset
+ 1357  docker buildx create --use
+ 1358  docker buildx inspect --bootstrap
+ 1359  docker buildx build --target testresults --output type=local,dest=. .
+ 1360  git add Dockerfile 
+ 1361  git add run_pytest.sh 
+ 1362  git commit -m "sonar publication added"
+ 1363  git push
+ 1364  ls
+ 1365  git add sonar-scanner.properties 
+ 1366  git commit —amend
+ 1367  git commit -amend
+ 1368  git commit --amend
+ 1369  git push
+ 1370  git pull
+ 1371  git push
+ 1372  ls
+ 1373  git pull
+ 1374  nano sonar-scanner.properties 
+ 1375  git add sonar-scanner.properties 
+ 1376  git commit --amend -m ""
+ 1377  git commit --amend -m "sonar-scanner.properties updated"
+ 1378  git push
+ 1379  ping 10.70.40.65
+ 1380  ping 10.70.40.60
+ 1381  ping 10.70.40.65
+ 1382  ssh 10.70.40.65
+ 1383  sudo ssh root@10.70.40.65
+ 1384  ды
+ 1385  ls
+ 1386  cd internship/
+ 1387  ls
+ 1388  git clone https://tfs.university.innopolis.ru/tfs/DefaultCollection/KSDM/_git/KSDM
+ 1389  cd KSDM
+ 1390  ls
+ 1391  git status
+ 1392  git pull
+ 1393  ls
+ 1394  cd uploadservice/
+ 1395  ls
+ 1396  nano Dockerfile
+ 1397  ls
+ 1398  nano Dockerfile
+ 1399  ls
+ 1400  cd internship/KSDM/
+ 1401  ls
+ 1402  nano README.md 
+ 1403  cd uploadservice/
+ 1404  nano README.rst 
+ 1405  ls
+ 1406  cd unittests/
+ 1407  ls
+ 1408  cd ..
+ 1409  ls
+ 1410  nano README.rst 
+ 1411  cd ..
+ 1412  ls
+ 1413  nano README.md 
+ 1414  ls
+ 1415  cd uploadservice/
+ 1416  ls
+ 1417  nano README.rst 
+ 1418  nano Dockerfile.unittests 
+ 1419  nano README.rst 
+ 1420  cd ..
+ 1421  nano Re
+ 1422  nano RE
+ 1423  nano README.md 
+ 1424  cd uploadservice/
+ 1425  nano README.rst 
+ 1426  ls
+ 1427  cd internship/
+ 1428  ls
+ 1429  rm -rf KSDM
+ 1430  ls
+ 1431  git clone https://tfs.university.innopolis.ru/tfs/DefaultCollection/KSDM/_git/KSDM
+ 1432  ls
+ 1433  cd KSDM
+ 1434  ls
+ 1435  git status
+ 1436  git checkout 31355-SonarQube 
+ 1437  ls
+ 1438  git pull
+ 1439  ls
+ 1440  cd uploadservice/
+ 1441  ls
+ 1442  cd unittests/
+ 1443  ls
+ 1444  cd ..
+ 1445  ls
+ 1446  cd..
+ 1447  cd ..
+ 1448  ls
+ 1449  cd ..
+ 1450  ls
+ 1451  git clone https://github.com/igudesman/wiki.git
+ 1452  ld
+ 1453  ls 
+ 1454  cd wiki/
+ 1455  ls
+ 1456  rm config 
+ 1457  ls
+ 1458  mkdir conf
+ 1459  mv Screenshot\ from\ 2020-06-17\ 11-01-40.png conf
+ 1460  mv Screenshot\ from\ 2020-06-17\ 11-01-43.png conf
+ 1461  mv Screenshot\ from\ 2020-06-17\ 11-02-00.png conf
+ 1462  ls
+ 1463  cd conf/
+ 1464  ls
+ 1465  cd ..
+ 1466  ls
+ 1467  git add *
+ 1468  git status
+ 1469  git commit -am "configs to tfs added"
+ 1470  git push
+ 1471  ls
+ 1472  git push
+ 1473  cd ..
+ 1474  ls
+ 1475  cd KSDM/
+ 1476  git pull
+ 1477  l
+ 1478  ls
+ 1479  cd uploadservice/
+ 1480  ls
+ 1481  cd unittests/
+ 1482  nano sonar-scanner.properties 
+ 1483  ls
+ 1484  cd ..
+ 1485  nano Dockerfile
+ 1486  python train_simple_nn.py --dataset animals --model output/simple_nn.model --label-bin output/simple_nn_lb.pickle --plot output/simple_nn_plot.png
+ 1487  ls
+ 1488  mkdir rosreestr
+ 1489  ls
+ 1490  cd rosreestr/
+ 1491  ls
+ 1492  mkdir capcha
+ 1493  ls
+ 1494  cd capcha/
+ 1495  cd ..
+ 1496  ls
+ 1497  cd .
+ 1498  cd ..
+ 1499  ls
+ 1500  rm -rf rosreestr/
+ 1501  git clone https://github.com/igudesman/rosreestr.git
+ 1502  ls
+ 1503  cd rosreestr/
+ 1504  ls
+ 1505  mkdir capcha
+ 1506  ls
+ 1507  cd capcha/
+ 1508  ls
+ 1509  touch README.md
+ 1510  ls
+ 1511  pwd
+ 1512  ls
+ 1513  cd ..
+ 1514  cd .
+ 1515  cd ..
+ 1516  cd rosreestr/
+ 1517  ls
+ 1518  rm -rf capcha/
+ 1519  ls
+ 1520  cd captcha/
+ 1521  ls
+ 1522  nano crop-captcha.py 
+ 1523  touch requirements.txt
+ 1524  ls
+ 1525  mkdir images
+ 1526  ls
+ 1527  cd images/
+ 1528  ls
+ 1529  nano cap 
+ 1530  cd ..
+ 1531  ls
+ 1532  ls capcha/
+ 1533  ls
+ 1534  cd capcha/
+ 1535  ls
+ 1536  cd ..
+ 1537  rm capcha/
+ 1538  ls
+ 1539  rm -rf  capcha/
+ 1540  ls
+ 1541  cd captcha/
+ 1542  cd ..
+ 1543  ls
+ 1544  cd captcha/
+ 1545  ls
+ 1546  python crop-captcha.py 
+ 1547  ls
+ 1548  cd ..
+ 1549  ls
+ 1550  cd captcha/
+ 1551  ls
+ 1552  pip install pillow=7.1.2
+ 1553  pip install pillow==7.1.2
+ 1554  ls
+ 1555  mkdir digits
+ 1556  ls
+ 1557  python crop-captcha.py 
+ 1558  pip isntall PIL
+ 1559  pip install PIL
+ 1560  python crop-captcha.py 
+ 1561  sudo apt-get install python-PIL
+ 1562  pip install Pillow
+ 1563  sudo apt-get install python-dev
+ 1564  pip install PIL
+ 1565  ls
+ 1566  cd digits/
+ 1567  ls
+ 1568  св юю
+ 1569  cd ..
+ 1570  ls
+ 1571  cd ..
+ 1572  ls
+ 1573  ды
+ 1574  ls
+ 1575  rm -rf capcha/
+ 1576  ls
+ 1577  git add captcha/
+ 1578  git commit -m "test data + image cropping"
+ 1579  git push
+ 1580  sudo apt update
+ 1581  sudo apt -y upgrade
+ 1582  sudo apt install -y python3-venv
+ 1583  l
+ 1584  ls
+ 1585  rm -rf captcha/
+ 1586  rm README.md 
+ 1587  ls
+ 1588  python3 -m venv env
+ 1589  ls
+ 1590  source env/bin/activate
+ 1591  python
+ 1592  git clone https://github.com/igudesman/rosreestr.git
+ 1593  ls
+ 1594  cd rosreestr/
+ 1595  cd ..
+ 1596  ls
+ 1597  cd ..
+ 1598  ls
+ 1599  source env/bin/deactivate
+ 1600  cd rosreestr/
+ 1601  source env/bin/deactivate
+ 1602  ls
+ 1603  deactivate
+ 1604  ls
+ 1605  rm -rf rosreestr/
+ 1606  ls
+ 1607  cd ..
+ 1608  ls
+ 1609  mv rosreestr/ fun
+ 1610  ls
+ 1611  cd fun/
+ 1612  ls
+ 1613  source env/bin/activate
+ 1614  git clone https://github.com/igudesman/rosreestr.git
+ 1615  ls
+ 1616  cd rosreestr/
+ 1617  ls
+ 1618  cd captcha/
+ 1619  ls
+ 1620  pip freeze
+ 1621  python crop-captcha.py 
+ 1622  ls
+ 1623  pip install -r requirements.txt 
+ 1624  python crop-captcha.py 
+ 1625  python3 crop-captcha.py 
+ 1626  ls
+ 1627  cd digits/
+ 1628  ls
+ 1629  rm 1.png 2.png 3.png 4.png 5.png 
+ 1630  ;s
+ 1631  ls
+ 1632  cd //
+ 1633  ls
+ 1634  cd home/
+ 1635  ls
+ 1636  cd daniel/
+ 1637  ls
+ 1638  cd fun/
+ 1639  cd rosreestr/
+ 1640  ls
+ 1641  cd captcha/
+ 1642  ls
+ 1643  python3 crop-captcha.py 
+ 1644  ls
+ 1645  cd digits/
+ 1646  ls
+ 1647  cd dat/
+ 1648  ls
+ 1649  cd 1
+ 1650  ls
+ 1651  cd ..
+ 1652  ls
+ 1653  nano crop-captcha.py 
+ 1654  ls
+ 1655  pwwd
+ 1656  pwd
+ 1657  ls
+ 1658  cd images/
+ 1659  ls
+ 1660  cd .
+ 1661  cd ..
+ 1662  ls
+ 1663  nano train_simple_nn.py 
+ 1664  ls
+ 1665  pip install -r requirements.txt 
+ 1666  python train_simple_nn.py --dataset dat --model output/simple_nn.model --label-bin output/simple_nn_lb.pickle --plot output/simple_nn_plot.png
+ 1667  ls
+ 1668  cd images/
+ 1669  ls
+ 1670  cd ..
+ 1671  ls
+ 1672  cd digits/
+ 1673  ls
+ 1674  rm 1.png 2.png 3.png 4.png 5.png 
+ 1675  ls
+ 1676  mv dat ../
+ 1677  ls
+ 1678  cd ..
+ 1679  ls
+ 1680  rm -rf digits/
+ 1681  ls
+ 1682  python train_simple_nn.py --dataset dat --model output/simple_nn.model --label-bin output/simple_nn_lb.pickle --plot output/simple_nn_plot.png
+ 1683  ls
+ 1684  cd images
+ 1685  ls
+ 1686  cd
+ 1687  cd fun/
+ 1688  ls
+ 1689  cd rosreestr/
+ 1690  ls
+ 1691  cd captcha/
+ 1692  ls
+ 1693  cd dat
+ 1694  ls
+ 1695  cd 1
+ 1696  ls
+ 1697  cd ..
+ 1698  ls
+ 1699  cd ..
+ 1700  ls
+ 1701  cd output/
+ 1702  ls
+ 1703  cd ..
+ 1704  python3 train_simple_nn.py --dataset dat --model output/simple_nn.model --label-bin output/simple_nn_lb.pickle --plot output/simple_nn_plot.png
+ 1705  pip install tensorflow-gpu
+ 1706  python train_simple_nn.py --dataset dat --model output/simple_nn.model --label-bin output/simple_nn_lb.pickle --plot output/simple_nn_plot.png
+ 1707  python3 train_simple_nn.py --dataset dat --model output/simple_nn.model --label-bin output/simple_nn_lb.pickle --plot output/simple_nn_plot.png
+ 1708  ls
+ 1709  cd images/
+ 1710  ls
+ 1711  cd ..
+ 1712  ls
+ 1713  cd output/
+ 1714  ls
+ 1715  ls -la
+ 1716  ls
+ 1717  cd ..
+ 1718  ls
+ 1719  python3 train_simple_nn.py --dataset dat --model output/simple_nn.model --label-bin output/simple_nn_lb.pickle --plot output/simple_nn_plot.png
+ 1720  cd output/
+ 1721  ls -la
+ 1722  cd ..
+ 1723  python3 train_simple_nn.py --dataset dat --model output/simple_nn.model --label-bin output/simple_nn_lb.pickle --plot output/simple_nn_plot.png
+ 1724  ls
+ 1725  cd output/
+ 1726  ls
+ 1727  cd ..
+ 1728  python3 train_simple_nn.py --dataset dat --model output/simple_nn.model --label-bin output/simple_nn_lb.pickle --plot output/simple_nn_plot.png
+ 1729  ls
+ 1730  cd output/
+ 1731  ls
+ 1732  rm simple_nn_lb.pickle 
+ 1733  rm simple_nn_plot.png 
+ 1734  rm simple_nn.model/
+ 1735  cd simple_nn.model/
+ 1736  ls
+ 1737  cd ..
+ 1738  rm -rf  simple_nn.model/
+ 1739  ls
+ 1740  cd ..
+ 1741  python3 train_simple_nn.py --dataset dat --model output/simple_nn.model --label-bin output/simple_nn_lb.pickle --plot output/simple_nn_plot.png
+ 1742  python3 crop-captcha.py 
+ 1743  ls
+ 1744  cd images/
+ 1745  ls
+ 1746  cd ..
+ 1747  python3 predict.py --image images/1.jpg --model output/simple_nn.model --label-bin output/simple_nn_lb.pickle --flatten 1
+ 1748  python3 predict.py --image images/cat.jpg --model output/simple_nn.model --label-bin output/simple_nn_lb.pickle --flatten 1
+ 1749  python3 crop-captcha.py --image images/cat.jpg --model output/simple_nn.model --label-bin output/simple_nn_lb.pickle --flatten 1
+ 1750  cd output/
+ 1751  ls
+ 1752  cd simple_nn.model/
+ 1753  ls
+ 1754  cd ..
+ 1755  ls
+ 1756  cd ..
+ 1757  python3 crop-captcha.py --image images/cat.jpg --model output/simple_nn.model/saved_model.pb --label-bin output/simple_nn_lb.pickle --flatten 1
+ 1758  python3 crop-captcha.py --image images/cat.jpg --model output/simple_nn.model --label-bin output/simple_nn_lb.pickle --flatten 1
+ 1759  ls
+ 1760  python3 crop-captcha.py --image images/cat.jpg --model output/simple_nn.model --label-bin output/simple_nn_lb.pickle --flatten 1
+ 1761  ls
+ 1762  cd images/
+ 1763  ls
+ 1764  python3 crop-captcha.py --image images/cat.jpg --model output/simple_nn.model --label-bin output/simple_nn_lb.pickle --flatten 1
+ 1765  cd ..
+ 1766  python3 crop-captcha.py --image images/cat.jpg --model output/simple_nn.model --label-bin output/simple_nn_lb.pickle --flatten 1
+ 1767  ls
+ 1768  python3 crop-captcha.py --image images/cat.jpg --model output/simple_nn.model --label-bin output/simple_nn_lb.pickle --flatten 1
+ 1769  ls
+ 1770  ls -la
+ 1771  l
+ 1772  ls
+ 1773  cd output/
+ 1774  ls
+ 1775  ls -la
+ 1776  ls
+ 1777  ls -la
+ 1778  nano simple_nn_lb.pickle 
+ 1779  ls
+ 1780  cd ..
+ 1781  python3 crop-captcha.py --image images/cat.jpg --model output/simple_nn.model --label-bin output/simple_nn_lb.pickle --flatten 1
+ 1782  ls
+ 1783  cd output/
+ 1784  ls
+ 1785  rm simple_nn_lb.pickle 
+ 1786  rm simple_nn.model 
+ 1787  ls
+ 1788  cd ..
+ 1789  ды
+ 1790  ls
+ 1791  python3 train_simple_nn.py --dataset dat --model output/simple_nn.model --label-bin output/simple_nn_lb.pickle --plot output/simple_nn_plot.png
+ 1792  python predict.py --image images/1.jpg --model output/simple_nn.model --label-bin output/simple_nn_lb.pickle --flatten 1
+ 1793  python3 predict.py --image images/1.jpg --model output/simple_nn.model --label-bin output/simple_nn_lb.pickle --flatten 1
+ 1794  ls
+ 1795  python3 predict.py --image images/cap.jpg --model output/simple_nn.model --label-bin output/simple_nn_lb.pickle --flatten 1
+ 1796  ls
+ 1797  cd images/
+ 1798  ls
+ 1799  rm cap 
+ 1800  ls
+ 1801  cd ..
+ 1802  python3 predict.py --image images/cap.jpg --model output/simple_nn.model --label-bin output/simple_nn_lb.pickle --flatten 1
+ 1803  LS
+ 1804  ls
+ 1805  rm 1.jpg 2.jpg 4.jpg 3.jpg 5.jpg 
+ 1806  ls
+ 1807  cd images/
+ 1808  ls
+ 1809  cd ..
+ 1810  python3 train_simple_nn.py --dataset dat --model output/simple_nn.model --label-bin output/simple_nn_lb.pickle --plot output/simple_nn_plot.png
+ 1811  python3 predict.py --image images/cap.jpg --model output/simple_nn.model --label-bin output/simple_nn_lb.pickle --flatten 1
+ 1812  ls
+ 1813  rm 1.jpg 2.jpg 3.jpg 4.jpg 5.jpg 
+ 1814  ls
+ 1815  cd ..
+ 1816  ls
+ 1817  git add captcha/
+ 1818  git commit -m "captcha detection added"
+ 1819  git push
+ 1820  ls
+ 1821  cd captcha/
+ 1822  ls
+ 1823  cd internship/
+ 1824  ls
+ 1825  cd KSDM
+ 1826  ls
+ 1827  cd uploadservice/
+ 1828  ls
+ 1829  cd service/
+ 1830  ls
+ 1831  nano views.py 
+ 1832  cd ..
+ 1833  ls
+ 1834  cd ..
+ 1835  ls
+ 1836  cd ..
+ 1837  cd fun/
+ 1838  ls
+ 1839  . env/bin/activate
+ 1840  ls
+ 1841  cd rosreestr/
+ 1842  ls
+ 1843  cd captcha/
+ 1844  ls
+ 1845  nano train_vgg.py 
+ 1846  python train_vgg.py --dataset animals --model output/smallvggnet.model --label-bin output/smallvggnet_lb.pickle --plot output/smallvggnet_plot.png
+ 1847  python3 train_vgg.py --dataset dat --model output/smallvggnet.model --label-bin output/smallvggnet_lb.pickle --plot output/smallvggnet_plot.png
+ 1848  nano train_vgg.py 
+ 1849  python3 train_vgg.py --dataset dat --model output/smallvggnet.model --label-bin output/smallvggnet_lb.pickle --plot output/smallvggnet_plot.png
+ 1850  ls
+ 1851  rm -rm output/
+ 1852  rm -rf output/
+ 1853  mkdir output
+ 1854  ls
+ 1855  python3 train_vgg.py --dataset dat --model output/smallvggnet.model --label-bin output/smallvggnet_lb.pickle --plot output/smallvggnet_plot.png
+ 1856  ls output/
+ 1857  nano train_vgg.py 
+ 1858  python predict.py --image images/cap.jpg --model output/smallvggnet.model --label-bin output/smallvggnet_lb.pickle --flatten 1
+ 1859  python3 predict.py --image images/cap.jpg --model output/smallvggnet.model --label-bin output/smallvggnet_lb.pickle --flatten 1
+ 1860  python3 predict.py --image images/cap.jpg --model output/smallvggnet.model --label-bin output/smallvggnet_lb.pickle --width 64 --height 64
+ 1861  ls
+ 1862  nano predict.py 
+ 1863  nano crop-captcha.py 
+ 1864  python3 crop-captcha.py --image 1.jpg --model output/smallvggnet.model --label-bin output/smallvggnet_lb.pickle --width 64 --height 64
+ 1865  ls
+ 1866  cd f
+ 1867  cd fun/
+ 1868  ls
+ 1869  . env/bin/activate
+ 1870  cd ro
+ 1871  cd rosreestr/
+ 1872  cd captcha/
+ 1873  ls
+ 1874  python3 crop-captcha.py --image 2.jpg --model output/smallvggnet.model --label-bin output/smallvggnet_lb.pickle --flatten 1
+ 1875  python3 crop-captcha.py --image 2.jpg --model output/smallvggnet.model --label-bin output/smallvggnet_lb.pickle
+ 1876  python3 crop-captcha.py --image 2.jpg --model output/smallvggnet.model --label-bin output/smallvggnet_lb.pickle --width 64 --height 64
+ 1877  cd fun
+ 1878  . env/bin/activate
+ 1879  cd rosreestr/
+ 1880  d a
+ 1881  cd captcha/
+ 1882  ls
+ 1883  python3 crop-captcha.py --image 1.jpg --model output/smallvggnet.model --label-bin output/smallvggnet_lb.pickle --width 32 --height 32 --flatten 1
+ 1884  python3 crop-captcha.py --image 1.jpg --model output/smallvggnet.model --label-bin output/smallvggnet_lb.pickle --width 32 --height 32
+ 1885  python3 crop-captcha.py --image 1.jpg --model output/smallvggnet.model --label-bin output/smallvggnet_lb.pickle
+ 1886  nano train_vgg.py 
+ 1887  python3 crop-captcha.py --image 1.jpg --model output/smallvggnet.model --label-bin output/smallvggnet_lb.pickle --flatten 1
+ 1888  python3 train_vgg.py —dataset dat —model output/smallvggnet.model —label-bin output/smallvggnet_lb.pickle —plot output/smallvggnet_plot.png
+ 1889  python3 train_vgg.py --dataset dat --model output/smallvggnet.model --label-bin output/smallvggnet_lb.pickle --plot output/smallvggnet_plot.png
+ 1890  nano train_vgg.py 
+ 1891  python3 train_vgg.py --dataset dat --model output/smallvggnet.model --label-bin output/smallvggnet_lb.pickle --plot output/smallvggnet_plot.png
+ 1892  nano train_vgg.py 
+ 1893  python3 train_vgg.py --dataset dat --model output/smallvggnet.model --label-bin output/smallvggnet_lb.pickle --plot output/smallvggnet_plot.png
+ 1894  nano train_vgg.py 
+ 1895  python3 train_vgg.py --dataset dat --model output/smallvggnet.model --label-bin output/smallvggnet_lb.pickle --plot output/smallvggnet_plot.png
+ 1896  nano crop-captcha.py 
+ 1897  python3 crop-captcha.py --image 3.jpg --model output/simple_nn.model --label-bin output/simple_nn_lb.pickle --width 32 --height 32 --flatten 1
+ 1898  python3 crop-captcha.py --image 3.jpg --model output/smallvggnet.model --label-bin output/smallvggnet_lb.pickle --width 64 --height 64
+ 1899  cd fun/
+ 1900  . env/bin/activate
+ 1901  cd rosreestr/captcha/
+ 1902  nano crop-captcha.py 
+ 1903  python3 crop-captcha.py --image images/cap.jpg --model output/smallvggnet.model --label-bin output/smallvggnet_lb.pickle --width 64 --height 64
+ 1904  nano crop-captcha.py 
+ 1905  python3 crop-captcha.py --image images/cap.jpg --model output/smallvggnet.model --label-bin output/smallvggnet_lb.pickle --width 64 --height 64
+ 1906  ls
+ 1907  rm 1.jpg 2.jpg 3.jpg 4.jpg 5.jpg 
+ 1908  ls
+ 1909  nano train_vgg.py 
+ 1910  python3 train_vgg.py —dataset dat --model output/smallvggnet.model --label-bin output/smallvggnet_lb.pickle --plot output/smallvggnet_plot.png
+ 1911  python3 train_vgg.py --dataset dat --model output/smallvggnet.model --label-bin output/smallvggnet_lb.pickle --plot output/smallvggnet_plot.png
+ 1912  ls
+ 1913  cd output/
+ 1914  ls
+ 1915  cd ..
+ 1916  pip uninstall tensorflow
+ 1917  pip install -r requirements.txt 
+ 1918  python3 train_vgg.py --dataset dat --model output/smallvggnet.model --label-bin output/smallvggnet_lb.pickle --plot output/smallvggnet_plot.png
+ 1919  python3 crop-captcha.py --image images/cap.jpg --model output/smallvggnet.model --label-bin output/smallvggnet_lb.pickle --width 64 --height 64
+ 1920  python3 crop-captcha.py --image images/cap.jpg --model output/smallvggnet.model --label-bin output/smallvggnet_lb.pickle --width 64 --height 64 --flatten 1
+ 1921  ls
+ 1922  cd output/
+ 1923  ls
+ 1924  cd .
+ 1925  cd ..
+ 1926  nano train_vgg.py 
+ 1927  python3 train_vgg.py --dataset dat --model output/smallvggnet.model --label-bin output/smallvggnet_lb.pickle --plot output/smallvggnet_plot.png
+ 1928  python3 crop-captcha.py --image images/cap.jpg --model output/smallvggnet.model --label-bin output/smallvggnet_lb.pickle --width 64 --height 64
+ 1929  ls
+ 1930  cd internship/
+ 1931  ls
+ 1932  rm -rf KSDM/
+ 1933  ls
+ 1934  git clone https://tfs.university.innopolis.ru/tfs/DefaultCollection/KSDM/_git/KSDM
+ 1935  ls
+ 1936  cd KSDM/
+ 1937  git checkout 31359-pydantic 
+ 1938  git pull
+ 1939  ls
+ 1940  cd uploadservice/
+ 1941  ls
+ 1942  cd integration-tests/
+ 1943  ls
+ 1944  nano common_http.py 
+ 1945  nano test_httpapi_attachment.py 
+ 1946  nano test_httpapi_report.py 
+ 1947  cd ..
+ 1948  git add integration-tests/
+ 1949  ls
+ 1950  git commit -am "integration-tests updated with pydantic"
+ 1951  git push
+ 1952  ls
+ 1953  pip install -r requirements.txt 
+ 1954  l
+ 1955  ls
+ 1956  cd internship/
+ 1957  ls
+ 1958  cd KSDM
+ 1959  ks
+ 1960  ls
+ 1961  cd uploadservice/
+ 1962  cd service/
+ 1963  ls
+ 1964  nano views.py
+ 1965  ды
+ 1966  ls
+ 1967  nano views.py 
+ 1968  ls
+ 1969  nano views.py 
+ 1970  nano db.py 
+ 1971  nano views.py 
+ 1972  cd internship/
+ 1973  cd KSDM
+ 1974  git pull
+ 1975  python --version
+ 1976  python3 --version
+ 1977  apt-get install python
+ 1978  sudo apt-get install python
+ 1979  sudo apt-get install python3
+ 1980  python --version
+ 1981  python3 --version
+ 1982  pip3 freeze
+ 1983  python3
+ 1984  jupyter notebook
+ 1985  sudo jupyter notebook
+ 1986  sudo jupyter notebook --allow-root
+ 1987  python --version
+ 1988  pip3 install --upgrade tensorflow-gpu
+ 1989  sudo jupyter notebook --allow-user
+ 1990  sudo jupyter notebook
+ 1991  sudo jupyter notebook --allow-root
+ 1992  tensorflow --version
+ 1993  pip tensorflow --version
+ 1994  python tensorflow --version
+ 1995  python3
+ 1996  ls
+ 1997  cd Desktop/
+ 1998  ls
+ 1999  python3 main.py 
+ 2000  sudo apt install gdebi
+ 2001  apt install sudo
+ 2002  sudo apt install sudo
+ 2003  sudo apt install gdebi
+ 2004  sudo apt -y install wget
+ 2005  sudo apt install ./zoom_amd64.deb
+ 2006  s
+ 2007  ls
+ 2008  cd os-assignments
+ 2009  mkdir  os-assignments
+ 2010  ls
+ 2011  cd os-assignments/
+ 2012  git clone https://github.com/igudesman/os-assignments.git
+ 2013  ls
+ 2014  cd ..
+ 2015  ls
+ 2016  rm -rf os-assignments/
+ 2017  ls
+ 2018  git clone https://github.com/igudesman/os-assignments.git
+ 2019  ls
+ 2020  cd os-assignments/
+ 2021  ls
+ 2022  git status
+ 2023  whoami
+ 2024  hostname
+ 2025  man whoami
+ 2026  mkdir week1
+ 2027  cd week1/
+ 2028  ;s
+ 2029  ls
+ 2030  ls /usr/bin | sort -r | tail -n 3
+ 2031  ls /usr/bin
+ 2032  ls /usr/bin -name '*gcc*'
+ 2033  find .  /usr/bin -name '*gcc*'
+ 2034  grep 'gcc' /usr/bin
+ 2035  grep "gcc" /usr/bin
+ 2036  grep "gcc" /usr/bin/
+ 2037  grep -r "gcc" /usr/bin/
+ 2038  ls /usr/bin
+ 2039  history > ex2.txt
