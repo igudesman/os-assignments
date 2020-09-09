@@ -4,10 +4,14 @@ int main(){
   int child;
   int maxLen = 1024;
   char input[maxLen];
-  fgets(input, maxLen, stdin);
+
   child = fork();
-  if (child == 0){
-    system(input);
+  while (1){
+    if (child == 0){
+      printf("CHILD >> ");
+      fgets(input, maxLen, stdin);
+      system(input);
+    }
   }
   return 0;
 }
