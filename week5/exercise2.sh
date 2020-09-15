@@ -1,6 +1,6 @@
 if ln text text.lock
   then
-  for i in $(seq 1 10000);
+  for i in $(seq 1 100);
   do
     LAST="$(tail -1 text)"
     expr $LAST + 1 >> text

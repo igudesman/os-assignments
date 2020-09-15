@@ -1,67 +1,52 @@
 // Critical region happens when Producer and Consumer appeal the same cell of memory (in array)
-
+/* 
+Array should look like this (1 1 1 .. 1 0 0 0 ... 0), 
+every 100~10seconds iterations array is printed (so if it does not satisfy the template => raise condition occured)
+*/
 #include<stdio.h>
 #include<stdlib.h>
 #include <pthread.h>
 #include <unistd.h>
 
-int full = 0, empty = 3, mutex = 1;
-int arr[empty];
-
-
-int wait() {
-  return 0;
-}
-
-int wakeup() {
-  return 1;
-}
+#define BUFFER_SIZE 10
+int full = 0, empty = BUFFER_SIZE;
+int arr[BUFFER_SIZE];
 
 void produce() {
-  mutex = wait();
   arr[full] = 1;
   full++;
   empty--;
-  sleep(0.1);
-  mutex = wakeup();
-  printf("Produce operation has been completed\n");
+  //printf("Produce operation has been completed\n");
 }
 
 void consume() {
-  mutex = wait();
   full--;
   empty++;
-  arr[full] = 0;
-  sleep(0.1);
-  mutex = wakeup();
-  printf("Consume operation has been completed\n");
+  arr[full] = 0/arr[full];
+  //printf("Consume operation has been completed\n");
 }
 
 void* thread_action (int* k) {
-  while (1) {
-    int n = *k % 2;
-    if (n == 0) {
-      if (empty != 0 && mutex == 1){
+  int n = *k % 2;
+  if (n == 0) {
+    int count = 0;
+    while (1) {
+      count++;
+      if (empty != 0){
         produce();
-      } else {
-        while (empty == 0 || mutex == 0) {
-          printf("I am waiting\n");
-        }
-        produce();
-        //printf("Buffer is full\n");
       }
-    } else if (n == 1) {
-      if (full != 0 && mutex == 1){
-        consume();
-      } else {
-        while (full == 0 || mutex == 0) {
-          printf("I am waiting\n");
+      if (count == 100) {
+        for (int i=0; i<BUFFER_SIZE; i++) {
+          printf("%d ", arr[i]);
         }
-        consume();
-        //printf("Buffer is empty\n");
+        printf("\n");
       }
-    } else {
-      printf("Bad request!\n");
+    }
+  } else {
+    while (1) {
+      if (full != 0){
+        consume();
+      }      
     }
   }
   return NULL;
