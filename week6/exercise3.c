@@ -1,8 +1,16 @@
-// for quantum = 1 10 processes (from lab) have average waiting time = 20.9
-// for quantum = 3 10 processes (from lab) have average waiting time = 21.9
-// for quantum = 4 10 processes (from lab) have average waiting time = 20.5
+//First come, first served is the simplest scheduling algorithm. FIFO simply queues processes in the order that they arrive in the ready queue.
+//PROS: It is quite easy to implement
+//CONS: May be ineffective
 
-// Completion time for all values of quantum is 42
+//Shortest Job First executes the processes based upon their burst time in ascending order of their burst times. 
+//PROS: The average waiting time for given set of processes is minimum.
+//CONS: A long process may never get executed and the system may keep executing the short processes.
+
+//Round-Robin executes the processes based upon the time quantum defined. Each process is executed for a fixed amount of time.
+//PROS: The average waiting time for given set of processes is quite small and depends on the time quantum.
+//CONS: If time quantum is shorter than needed, the number of times that CPU switches from one process to another process, increases. This leads to decrease in CPU efficiency.
+
+
 #include <stdio.h>
 #include <stdbool.h>
 #include <stdlib.h>
