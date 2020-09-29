@@ -1,0 +1,2 @@
+   text	   data	    bss	    dec	    hex	filename
+   1455	    584	      8	   2047	    7ff	test
