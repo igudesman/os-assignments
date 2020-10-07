@@ -1,0 +1,1 @@
+The virtual addresses do not exist physically, whereas physical addresses correspond to real cels in the memory. Also, users can not access the physical address directly, they can only refer to a virtual address, where the memory management unit maps them to the corresponding physical addresses.

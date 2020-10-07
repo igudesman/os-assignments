@@ -1,0 +1,114 @@
+[?1h=[?25l[H[2J(B[mtop - 19:44:55 up  5:25,  4 users,  load average: 0.55, 1.15, 1.29(B[m[39;49m(B[m[39;49m[K
+Tasks:(B[m[39;49m[1m 180 (B[m[39;49mtotal,(B[m[39;49m[1m   1 (B[m[39;49mrunning,(B[m[39;49m[1m 179 (B[m[39;49msleeping,(B[m[39;49m[1m   0 (B[m[39;49mstopped,(B[m[39;49m[1m   0 (B[m[39;49mzombie(B[m[39;49m(B[m[39;49m[K
+%Cpu(s):(B[m[39;49m[1m 10.8 (B[m[39;49mus,(B[m[39;49m[1m 10.8 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 67.6 (B[m[39;49mid,(B[m[39;49m[1m  9.5 (B[m[39;49mwa,(B[m[39;49m[1m  1.4 (B[m[39;49mhi,(B[m[39;49m[1m  0.0 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m[39;49m[K
+MiB Mem :(B[m[39;49m[1m   5837.3 (B[m[39;49mtotal,(B[m[39;49m[1m   1050.2 (B[m[39;49mfree,(B[m[39;49m[1m   3921.3 (B[m[39;49mused,(B[m[39;49m[1m    865.8 (B[m[39;49mbuff/cache(B[m[39;49m(B[m[39;49m[K
+MiB Swap:(B[m[39;49m[1m      0.0 (B[m[39;49mtotal,(B[m[39;49m[1m      0.0 (B[m[39;49mfree,(B[m[39;49m[1m      0.0 (B[m[39;49mused.(B[m[39;49m[1m   1129.0 (B[m[39;49mavail Mem (B[m[39;49m(B[m[39;49m[K
+[K
+[7m    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND                                      (B[m[39;49m[K
+(B[m   1103 igudesm+  20   0 4255064 434344  74776 S  11.1   7.3  14:28.17 MainThread                                   (B[m[39;49m[K
+(B[m  41299 igudesm+  20   0   12584  11428   1104 S  11.1   0.2   0:00.02 ex2                                          (B[m[39;49m[K
+(B[m  41301 igudesm+  20   0    8892   1296   1084 S  11.1   0.0   0:00.02 vmstat                                       (B[m[39;49m[K
+(B[m    712 root      20   0  565900 106040  90696 S   5.6   1.8   6:40.70 Xorg                                         (B[m[39;49m[K
+(B[m    996 igudesm+  20   0 3540580  73696  27644 S   5.6   1.2   8:13.83 kwin_x11                                     (B[m[39;49m[K
+(B[m   1329 igudesm+  20   0 2751164 183096  30372 S   5.6   3.1   1:52.97 Web Content                                  (B[m[39;49m[K
+(B[m   1451 igudesm+  20   0 2531788 111136  29672 S   5.6   1.9   1:09.86 WebExtensions                                (B[m[39;49m[K
+(B[m   1825 igudesm+  20   0 3377240 539064  71784 S   5.6   9.0   4:49.35 Web Content                                  (B[m[39;49m[K
+(B[m  33813 igudesm+  20   0 2546640 110984  34964 S   5.6   1.9   1:08.03 file:// Content                              (B[m[39;49m[K
+(B[m  34042 igudesm+  20   0  954404  70468  32324 S   5.6   1.2   0:31.42 sublime_text                                 (B[m[39;49m[K
+(B[m  34442 igudesm+  20   0 1003028  35112  16272 S   5.6   0.6   0:26.58 konsole                                      (B[m[39;49m[K
+(B[m  39129 igudesm+  20   0 2848192 147700  25488 S   5.6   2.5   1:12.50 Web Content                                  (B[m[39;49m[K
+(B[m[1m  41300 igudesm+  20   0   10340   3804   3304 R   5.6   0.1   0:00.03 top                                          (B[m[39;49m[K
+(B[m      1 root      20   0  175184   4944   2200 S   0.0   0.1   0:02.52 systemd                                      (B[m[39;49m[K
+(B[m      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 kthreadd                                     (B[m[39;49m[K
+(B[m      3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 rcu_gp                                       (B[m[39;49m[K
+(B[m      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 rcu_par_gp                                   (B[m[39;49m[K
+(B[m      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/0:0H-kblockd                         (B[m[39;49m[K
+(B[m      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 mm_percpu_wq                                 (B[m[39;49m[K
+(B[m      9 root      20   0       0      0      0 S   0.0   0.0   0:00.96 ksoftirqd/0                                  (B[m[39;49m[K
+(B[m     10 root      -2   0       0      0      0 S   0.0   0.0   0:00.00 rcuc/0                                       (B[m[39;49m[K
+(B[m     11 root      -2   0       0      0      0 I   0.0   0.0   0:07.32 rcu_preempt                                  (B[m[39;49m[K
+(B[m     12 root      -2   0       0      0      0 S   0.0   0.0   0:00.00 rcub/0                                       (B[m[39;49m[K
+(B[m     13 root      rt   0       0      0      0 S   0.0   0.0   0:00.04 migration/0                                  (B[m[39;49m[K
+(B[m     14 root     -51   0       0      0      0 S   0.0   0.0   0:00.00 idle_inject/0                                (B[m[39;49m[K
+(B[m     16 root      20   0       0      0      0 S   0.0   0.0   0:00.00 cpuhp/0                                      (B[m[39;49m[K
+(B[m     17 root      20   0       0      0      0 S   0.0   0.0   0:00.00 cpuhp/1                                      (B[m[39;49m[K
+(B[m     18 root     -51   0       0      0      0 S   0.0   0.0   0:00.00 idle_inject/1                                (B[m[39;49m[K
+(B[m     19 root      rt   0       0      0      0 S   0.0   0.0   0:00.12 migration/1                                  (B[m[39;49m[K
+(B[m     20 root      -2   0       0      0      0 S   0.0   0.0   0:00.00 rcuc/1                                       (B[m[39;49m[K
+(B[m     21 root      20   0       0      0      0 S   0.0   0.0   0:00.88 ksoftirqd/1                                  (B[m[39;49m[K
+(B[m     23 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/1:0H-kblockd                         (B[m[39;49m[K
+(B[m     24 root      20   0       0      0      0 S   0.0   0.0   0:00.00 cpuhp/2                                      (B[m[39;49m[K
+(B[m     25 root     -51   0       0      0      0 S   0.0   0.0   0:00.00 idle_inject/2                                (B[m[39;49m[K
+(B[m     26 root      rt   0       0      0      0 S   0.0   0.0   0:00.11 migration/2                                  (B[m[39;49m[K
+(B[m     27 root      -2   0       0      0      0 S   0.0   0.0   0:00.00 rcuc/2                                       (B[m[39;49m[K
+(B[m     28 root      20   0       0      0      0 S   0.0   0.0   0:00.96 ksoftirqd/2                                  (B[m[39;49m[K
+(B[m     30 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/2:0H-kblockd                         (B[m[39;49m[K
+(B[m     31 root      20   0       0      0      0 S   0.0   0.0   0:00.00 cpuhp/3                                      (B[m[39;49m[K
+(B[m     32 root     -51   0       0      0      0 S   0.0   0.0   0:00.00 idle_inject/3                                (B[m[39;49m[K
+(B[m     33 root      rt   0       0      0      0 S   0.0   0.0   0:00.11 migration/3                                  (B[m[39;49m[K
+(B[m     34 root      -2   0       0      0      0 S   0.0   0.0   0:00.00 rcuc/3                                       (B[m[39;49m[K
+(B[m     35 root      20   0       0      0      0 S   0.0   0.0   0:02.17 ksoftirqd/3                                  (B[m[39;49m[K
+(B[m     37 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/3:0H-kblockd                         (B[m[39;49m[K
+(B[m     38 root      20   0       0      0      0 S   0.0   0.0   0:00.00 kdevtmpfs                                    (B[m[39;49m[K
+(B[m     39 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 netns                                        (B[m[39;49m[K
+(B[m     40 root      20   0       0      0      0 S   0.0   0.0   0:00.00 rcu_tasks_kthre                              (B[m[39;49m[K
+(B[m     41 root      20   0       0      0      0 S   0.0   0.0   0:00.00 rcu_tasks_rude_                              (B[m[39;49m[K
+(B[m     42 root      20   0       0      0      0 S   0.0   0.0   0:00.00 kauditd                                      (B[m[39;49m[K
+(B[m     45 root      20   0       0      0      0 S   0.0   0.0   0:00.02 khungtaskd                                   (B[m[39;49m[K[H(B[mtop - 19:44:56 up  5:25,  4 users,  load average: 0.55, 1.15, 1.29(B[m[39;49m(B[m[39;49m[K
+
+%Cpu(s):(B[m[39;49m[1m  4.8 (B[m[39;49mus,(B[m[39;49m[1m  4.5 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 89.7 (B[m[39;49mid,(B[m[39;49m[1m  0.0 (B[m[39;49mwa,(B[m[39;49m[1m  0.7 (B[m[39;49mhi,(B[m[39;49m[1m  0.2 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m[39;49m[K
+
+
+[K
+
+(B[m   1103 igudesm+  20   0 4255064 434344  74776 S   5.0   7.3  14:28.22 MainThread                                   (B[m[39;49m[K
+(B[m  33813 igudesm+  20   0 2546640 110984  34964 S   4.0   1.9   1:08.07 file:// Content                              (B[m[39;49m[K
+(B[m    996 igudesm+  20   0 3540708  73696  27644 S   2.0   1.2   8:13.85 kwin_x11                                     (B[m[39;49m[K
+(B[m   1358 igudesm+  20   0 3700276 705468  38240 S   2.0  11.8   6:47.09 Web Content                                  (B[m[39;49m[K
+(B[m[1m  41300 igudesm+  20   0   10308   4028   3312 R   2.0   0.1   0:00.05 top                                          (B[m[39;49m[K
+(B[m   1035 igudesm+  20   0 2431412 163008  33412 S   1.0   2.7   3:39.51 plasmashell                                  (B[m[39;49m[K
+(B[m   1825 igudesm+  20   0 3377240 539064  71784 S   1.0   9.0   4:49.36 Web Content                                  (B[m[39;49m[K
+(B[m   8534 igudesm+  20   0 2881604 261128  45444 S   1.0   4.4   5:50.44 telegram-deskto                              (B[m[39;49m[K
+(B[m  14432 igudesm+  20   0 2849712 299032  69908 S   1.0   5.0   1:07.73 Web Content                                  (B[m[39;49m[K
+(B[m  34042 igudesm+  20   0  954404  70468  32324 S   1.0   1.2   0:31.43 sublime_text                                 (B[m[39;49m[K
+(B[m      1 root      20   0  175184   4944   2200 S   0.0   0.1   0:02.52 systemd                                      (B[m[39;49m[K
+(B[m      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 kthreadd                                     (B[m[39;49m[K
+(B[m      3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 rcu_gp                                       (B[m[39;49m[K
+(B[m      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 rcu_par_gp                                   (B[m[39;49m[K
+(B[m      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/0:0H-kblockd                         (B[m[39;49m[K
+(B[m      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 mm_percpu_wq                                 (B[m[39;49m[K
+(B[m      9 root      20   0       0      0      0 S   0.0   0.0   0:00.96 ksoftirqd/0                                  (B[m[39;49m[K
+(B[m     10 root      -2   0       0      0      0 S   0.0   0.0   0:00.00 rcuc/0                                       (B[m[39;49m[K
+(B[m     11 root      -2   0       0      0      0 I   0.0   0.0   0:07.32 rcu_preempt                                  (B[m[39;49m[K
+(B[m     12 root      -2   0       0      0      0 S   0.0   0.0   0:00.00 rcub/0                                       (B[m[39;49m[K
+(B[m     13 root      rt   0       0      0      0 S   0.0   0.0   0:00.04 migration/0                                  (B[m[39;49m[K
+(B[m     14 root     -51   0       0      0      0 S   0.0   0.0   0:00.00 idle_inject/0                                (B[m[39;49m[K
+(B[m     16 root      20   0       0      0      0 S   0.0   0.0   0:00.00 cpuhp/0                                      (B[m[39;49m[K
+(B[m     17 root      20   0       0      0      0 S   0.0   0.0   0:00.00 cpuhp/1                                      (B[m[39;49m[K
+(B[m     18 root     -51   0       0      0      0 S   0.0   0.0   0:00.00 idle_inject/1                                (B[m[39;49m[K
+(B[m     19 root      rt   0       0      0      0 S   0.0   0.0   0:00.12 migration/1                                  (B[m[39;49m[K
+(B[m     20 root      -2   0       0      0      0 S   0.0   0.0   0:00.00 rcuc/1                                       (B[m[39;49m[K
+(B[m     21 root      20   0       0      0      0 S   0.0   0.0   0:00.88 ksoftirqd/1                                  (B[m[39;49m[K
+(B[m     23 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/1:0H-kblockd                         (B[m[39;49m[K
+(B[m     24 root      20   0       0      0      0 S   0.0   0.0   0:00.00 cpuhp/2                                      (B[m[39;49m[K
+(B[m     25 root     -51   0       0      0      0 S   0.0   0.0   0:00.00 idle_inject/2                                (B[m[39;49m[K
+(B[m     26 root      rt   0       0      0      0 S   0.0   0.0   0:00.11 migration/2                                  (B[m[39;49m[K
+(B[m     27 root      -2   0       0      0      0 S   0.0   0.0   0:00.00 rcuc/2                                       (B[m[39;49m[K
+(B[m     28 root      20   0       0      0      0 S   0.0   0.0   0:00.96 ksoftirqd/2                                  (B[m[39;49m[K
+(B[m     30 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/2:0H-kblockd                         (B[m[39;49m[K
+(B[m     31 root      20   0       0      0      0 S   0.0   0.0   0:00.00 cpuhp/3                                      (B[m[39;49m[K
+(B[m     32 root     -51   0       0      0      0 S   0.0   0.0   0:00.00 idle_inject/3                                (B[m[39;49m[K
+(B[m     33 root      rt   0       0      0      0 S   0.0   0.0   0:00.11 migration/3                                  (B[m[39;49m[K
+(B[m     34 root      -2   0       0      0      0 S   0.0   0.0   0:00.00 rcuc/3                                       (B[m[39;49m[K
+(B[m     35 root      20   0       0      0      0 S   0.0   0.0   0:02.17 ksoftirqd/3                                  (B[m[39;49m[K
+(B[m     37 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/3:0H-kblockd                         (B[m[39;49m[K
+(B[m     38 root      20   0       0      0      0 S   0.0   0.0   0:00.00 kdevtmpfs                                    (B[m[39;49m[K
+(B[m     39 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 netns                                        (B[m[39;49m[K
+(B[m     40 root      20   0       0      0      0 S   0.0   0.0   0:00.00 rcu_tasks_kthre                              (B[m[39;49m[K
+(B[m     41 root      20   0       0      0      0 S   0.0   0.0   0:00.00 rcu_tasks_rude_                              (B[m[39;49m[K
+(B[m     42 root      20   0       0      0      0 S   0.0   0.0   0:00.00 kauditd                                      (B[m[39;49m[K
+(B[m     45 root      20   0       0      0      0 S   0.0   0.0   0:00.02 khungtaskd                                   (B[m[39;49m[K
+(B[m     46 root      20   0       0      0      0 S   0.0   0.0   0:00.40 oom_reaper                                   (B[m[39;49m[K
+(B[m     47 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 writeback                                    (B[m[39;49m[K
+(B[m     48 root      20   0       0      0      0 S   0.0   0.0   0:00.15 kcompactd0                                   (B[m[39;49m[K[?1l>[58;1H
+[?12l[?25h[K

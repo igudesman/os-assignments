@@ -1,0 +1,3 @@
+There are 16 bits for virtual address.
+Page len = 8KB = 2^13 bits.
+Entries = 2^(16-13) = 8
