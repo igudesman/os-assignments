@@ -1,0 +1,4 @@
+Hit/Miss ratio depends on the number of disk accesses (swaps). Hence, to increase Hit ration we have to decrease the number of outgoing references. For example, if all elements in the sequence of references are the same then there will be only one miss (when the page table is empty). On the other, hand if all elements in the sequence of references are unique then there will not be any hits. In the best case if initially, the page table is empty the number of misses will be equal to the number of unique elements.
+
+1. (1, 1, ..., 1) - good hit ratio
+2. (1, 2, 3, ..., n) - bad hit ratio
