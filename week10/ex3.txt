@@ -1,0 +1,8 @@
+$ chmod uo+rwx _ex3.txt
+result: -rwx---rwx  1 igudesman igudesman    0 Oct 20 13:40 _ex3.txt
+$ chmod g=u _ex3.txt
+result: -rwxrwxrwx  1 igudesman igudesman    0 Oct 20 16:40 _ex3.txt
+
+660 <=> -rw-rw----
+775 <=> -rwxrwxr-x
+777 <=> -rwxrwxrwx
