@@ -1,0 +1,9 @@
+When outputting to standard output using the C library's printf() function, the output is usually buffered. The buffer is not flushed until you output a newline. Therefore, when we fork the process, the child processes inherits every part of the parent process, including the output buffer (int the ex3_1.c it is unflushed because we do not have '\n' at the end of the line').
+
+ex3_1.c output:
+Hello
+Hello
+
+
+ex3_2.c output:
+Hello
