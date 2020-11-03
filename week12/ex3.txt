@@ -1,0 +1,26 @@
+$ gcc copy.c -o copy
+$ time ./copy ex3_1.txt ex3_2.txt
+real 0m0.028s
+user 0m0.001s
+sys  0m0.026s
+
+$ gcc -DBUF_SIZE=100000 copy.c -o copy
+$ time ./copy ex3_1.txt ex3_2.txt
+real 0m0.004s
+user 0m0.000s
+sys  0m0.004s
+
+$ gcc -DSYNC copy.c -o copy
+$ time ./copy ex3_1.txt ex3_2.txt
+real 0m30.678s
+user 0m0.008s
+sys  0m0.197s
+
+The bigger value of the DBUF_SIZE the smaller time. 
+The O_SYNC and O_DSYNC are flags of open() system call. These flags are used to specify synchronous I/O behaviour.
+
+O_SYNC : The O_SYNC flag specify that write() system call will be block until all file data and metadata have been written to the disk.
+
+O_DSYNC : It is same as O_SYNC, except it doesnt care whether the metadata is written to the disk. The write() will simply return once all the file data are written to the disk.
+
+Programmer use O_DSYNC instead of O_SYNC to eliminate the need to flush the file inode on a write.
