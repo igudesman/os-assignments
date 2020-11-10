@@ -1,0 +1,7 @@
+When there are too many processes and resources and the safety of processes is important to us algorithms for Deadlock Avoidance may be too slow (Banker's algorithm). In this situation, we can use Deadlock Prevention.
+
+
+When the safety of processes is important to us we can use Deadlock Avoidance.
+
+
+We can use Deadlock Detection and Recovery strategy in situations when we do not care about the safety of processes. As deadlocks occur very rare, we can just leave this problem up to the user and do not waste CPU time to perform algorithms to avoid deadlocks in advance. 
