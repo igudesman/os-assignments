@@ -1,0 +1,8 @@
+Process 0 completed
+Available: 0 1 0 
+
+SUMMARY
+Process 1 is deadlocked
+Process 2 is deadlocked
+Process 3 is deadlocked
+Process 4 is deadlocked

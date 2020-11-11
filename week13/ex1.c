@@ -22,7 +22,7 @@ int main() {
 
 	FILE *fp;
 	int n, m;
-	fp = fopen("input.txt", "r");
+	fp = fopen("input_dl.txt", "r");
 
 	fscanf(fp, "%d", &n);
 	fscanf(fp, "%d", &m);

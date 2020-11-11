@@ -1,0 +1,13 @@
+Process 0 completed
+Available: 0 1 0 
+Process 2 completed
+Available: 3 1 3 
+Process 3 completed
+Available: 5 2 4 
+Process 4 completed
+Available: 5 2 6 
+Process 1 completed
+Available: 7 2 6 
+
+SUMMARY
+No deadlock
